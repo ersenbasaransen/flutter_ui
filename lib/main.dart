@@ -25,6 +25,14 @@ class MyApp extends StatelessWidget {
           },
         ),
       ),
+      theme: ThemeData(
+        primaryColor: Colors.indigo, // TODO: does not work
+        accentColor: Colors.amber,
+        textTheme: TextTheme(
+          bodyText2: TextStyle(fontSize: 26, fontStyle: FontStyle.italic),
+        ),
+        brightness: Brightness.dark,
+      ),
     );
   }
 }
